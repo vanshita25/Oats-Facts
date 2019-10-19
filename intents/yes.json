@@ -1,0 +1,58 @@
+{
+  "id": "20405eb6-aaea-4c74-ba6a-62636496a381",
+  "name": "yes",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": [
+            "ओट्स एक लस मुक्त पूरे अनाज और महत्वपूर्ण विटामिन, खनिज, फाइबर और एंटीऑक्सिडेंट का एक बड़ा स्रोत हैं\nक्या आप और जानना चाहते हैं?",
+            "बारीक ग्राउंड ओट्स स्किन केयर के साथ मदद कर सकते हैं।\nक्या आप और जानना चाहते हैं?",
+            "ओट्स चाइल्ड अस्थमा का जोखिम कम करता है ।\nक्या आप और जानना चाहते हैं?",
+            "ओट्स खाने से कब्ज़ से छुटकारा मिलता है!\nक्या आप और जानना चाहते हैं?",
+            "ओट्स रक्त शर्करा नियंत्रण में सुधार करता है\nक्या आप और जानना चाहते हैं?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Oats/Oats May Help Relieve Constipation\nWanna know more?",
+            "They\u0027re a gluten-free whole grain and a great source of important vitamins, minerals, fiber and antioxidants\nWanna know more?",
+            "Oats Can Improve Blood Sugar Control\nWanna know more?",
+            "Finely Ground Oats May Help With Skin Care\nWanna know more?",
+            "They May Decrease the Risk of Childhood Asthma\nWanna know more?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

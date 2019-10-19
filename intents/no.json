@@ -1,0 +1,45 @@
+{
+  "id": "14124acf-4f4c-403b-ad9b-85e0badae786",
+  "name": "no",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "hi",
+          "condition": "",
+          "speech": "अगली बार ओट्स फैक्ट्स  के बारे में जानने के लिए\nअपने गूगल असिस्टेंट से कहे \nओट्स फैक्ट्स  से कनेक्ट करो |\nअलविदा !"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you wanna know more about Oats just say talk to Oats-facts .Bye"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
