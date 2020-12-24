@@ -31,7 +31,7 @@
     "autoPreviewEnabled": false,
     "isDeviceAgent": false
   },
-  "defaultTimezone": "America/Colombo",
+  "defaultTimezone": "Asia/Colombo",
   "webhook": {
     "url": "",
     "username": "",
